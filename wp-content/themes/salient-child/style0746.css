@@ -1,0 +1,54 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+
+/*Testimonial Slider*/
+.testimonial_slider .testimonialRatings .star-rating { margin-top: 0px; margin-bottom: 0px }
+.testimonial_slider .testimonialRatings { height: 45px }
+.testimonial_slider .testimonialRatings .star-rating, .testimonialRatings .star-rating .filled { font-size: 20px !important; line-height: 30px !important }
+.testimonial_slider h3.testimonialText { font-weight: normal !important; font-size: 24px !important; margin-bottom: 25px !important; color:#000 }
+.testimonial_slider .image-icon.has-bg { width: 70px; height: 70px; margin-bottom: 10px }
+.testimonial_slider span.testimonial-name { font-size: 20px !important; color: #5a97fc; margin-bottom: 5px !important }
+.testimonial_slider blockquote .title { font-style: normal !important; font-size: 14px !important }
+.testimonial_slider[data-style="minimal"] .testimonial-next-prev .prev { left: 0px !important }
+.testimonial_slider[data-style="minimal"] .testimonial-next-prev .next { right: 0px !important }
+.testimonial_slider[data-style="minimal"] .testimonial-next-prev a { font-size: 70px !important; font-weight: normal !important; }
+.testimonial_slider[data-style="minimal"] .testimonial-next-prev a:before { color: #dee2ea !important }
+.testimonial_slider[data-style="minimal"] .testimonial-next-prev a:after { background-color: #dee2ea !important; }
+.testimonial_slider .controls{ display:none !important}
+
+/*Footer Author box*/
+#author-info h3{ font-size:24px}
+#author-bio{ border-top:2px solid #f4f4f4 !important}
+
+/*Footer Subscriber Box*/
+#subscribeTodayBox h3{ margin-bottom:0px}
+#subscribeTodayBox p{ font-size:14px}
+#subscribeTodayBox .wpb_wrapper > div{ margin-bottom:15px}
+#subscribeTodayBox .wpb_wrapper > div:last-child{ margin-bottom:0px}
+
+#subscribeTodayBox .mc4wp-form-fields input[type="email"]{ width:60%; display:inline-block; border:1px solid; border-color: #57698A!important; background:#fff !important}
+#subscribeTodayBox .mc4wp-form-fields input[type="submit"]{ width:25% !important; display:inline-block; border-radius:4px !important; background-color:#005DFF!important; min-width:125px}
+#subscribeTodayBox .mc4wp-form-fields { text-align:left}
+
+
+@media(min-width:768px)
+{
+	#subscribeTodayBox .vc_col-sm-2{ width:14%; padding:0px}
+}
+
+@media(max-width:767px)
+{
+.testimonial_slider h3.testimonialText{ font-size:18px !important; line-height:24px !important}
+}
+
+
+.fa-superpowers:before {
+    content: "\e07b" !important;
+}
